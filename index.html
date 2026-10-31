@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f3eb">
+  <meta name="description" content="Pizzas artesanales hechas con masa de fermentación lenta, ingredientes frescos y mucho fuego. Descubre Forno Rosso.">
+  <link rel="icon" type="image/svg+xml" href="pizza.svg">
+  <title>Faz Pizza — Pizza hecha con fuego</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topline">Masa lenta, ingredientes reales <span>✦</span> Horneada al momento</div>
+  <header>
+    <nav class="nav wrap" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Faz Pizza, inicio">
+        <img class="brand-mark" src="pizza.svg" alt="" aria-hidden="true"> faz pizza
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#menu">El menú</a>
+        <a href="#filosofia">Nuestra filosofía</a>
+        <a href="#visitanos">Encuéntranos</a>
+      </div>
+      <a class="nav-cta" href="#menu">Ver el menú <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+        <svg width="23" height="23" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="inicio">
+      <div class="hero-content">
+        <div class="eyebrow">Una buena pizza cambia el día</div>
+        <h1>Un poco de Italia,<br>mucho <em>corazón.</em></h1>
+        <p class="hero-copy">Masa que fermenta despacio, ingredientes que hablan por sí solos y fuego de verdad. Así hacemos pizza en Faz Pizza.</p>
+        <div class="hero-actions">
+          <a class="button" href="#menu">Descubre el menú <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#filosofia">Nuestra historia <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-avatars" aria-hidden="true"><span>B</span><span>G</span><span>E</span></div>
+          <div><span class="proof-stars" aria-label="cinco estrellas">★★★★★</span><br>El plan favorito de tu semana</div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Pizza artesanal recién horneada">
+        <div class="hero-photo">
+          <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1100&q=85" alt="Pizza artesanal con ingredientes frescos, recién salida del horno">
+        </div>
+        <div class="round-stamp"><span>Hecha a mano<br>con mucho amor<br>✦ desde siempre ✦</span></div>
+        <div class="hero-note">La felicidad cabe en una rebanada.</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Masa lenta, buen fuego, mejores momentos">
+      <div class="ticker-track" aria-hidden="true">
+        <span>Masa lenta</span><b>✳</b><span>Buen fuego</span><b>✳</b><span>Mejores momentos</span><b>✳</b><span>Ingredientes reales</span><b>✳</b>
+        <span>Masa lenta</span><b>✳</b><span>Buen fuego</span><b>✳</b><span>Mejores momentos</span><b>✳</b><span>Ingredientes reales</span><b>✳</b>
+      </div>
+    </div>
+
+    <section class="section wrap" id="menu">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">Directo del horno</div>
+          <h2>Las favoritas<br>de la casa.</h2>
+        </div>
+        <p>Recetas sencillas, hechas con tiempo y buenos ingredientes. ¿Cuál se te antoja hoy?</p>
+      </div>
+      <div class="menu-grid">
+        <article class="dish-card reveal">
+          <div class="dish-image">
+            <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=850&q=82" alt="Pizza Margherita con jitomate, mozzarella y albahaca" loading="lazy">
+            <span class="dish-label">La de siempre</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-title"><h3>Margherita</h3><strong>S/ 189</strong></div>
+            <p>Jitomate San Marzano, mozzarella fresca, albahaca y aceite de oliva.</p>
+          </div>
+        </article>
+        <article class="dish-card reveal">
+          <div class="dish-image">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=850&q=82" alt="Pizza artesanal con pepperoni y queso fundido" loading="lazy">
+            <span class="dish-label">La consentida</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-title"><h3>Pepperoni</h3><strong>S/ 219</strong></div>
+            <p>Pepperoni ligeramente picante, mozzarella y un toque de miel.</p>
+          </div>
+        </article>
+        <article class="dish-card reveal">
+          <div class="dish-image">
+            <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=850&q=82" alt="Pizza de vegetales frescos y queso" loading="lazy">
+            <span class="dish-label">Del huerto</span>
+          </div>
+          <div class="dish-body">
+            <div class="dish-title"><h3>Orto</h3><strong>S/ 205</strong></div>
+            <p>Vegetales de temporada, queso de cabra, pesto y semillas tostadas.</p>
+          </div>
+        </article>
+      </div>
+      <p class="menu-footnote">Cada pizza se prepara al momento.</p>
+    </section>
+
+    <section class="story" id="filosofia">
+      <div class="story-inner wrap">
+        <div class="story-photo reveal">
+          <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1000&q=85" alt="Pizza preparada a mano con ingredientes frescos" loading="lazy">
+        </div>
+        <div class="story-copy reveal">
+          <div class="eyebrow">Sin atajos, con mucho gusto</div>
+          <h2>El secreto está en <em>darle tiempo.</em></h2>
+          <p>Nuestra masa descansa 48 horas para quedar ligera, crujiente y llena de sabor. Sumamos ingredientes de temporada y el calor intenso del horno. Nada complicado: solo hacerlo bien.</p>
+          <div class="story-points">
+            <div class="story-point"><b>✳</b> Fermentación lenta</div>
+            <div class="story-point"><b>✳</b> Ingredientes frescos</div>
+            <div class="story-point"><b>✳</b> Horneada al momento</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit wrap" id="visitanos">
+      <div class="eyebrow">La mesa está puesta</div>
+      <h2>La próxima buena historia empieza con una pizza.</h2>
+      <p style="margin-top: 39px;">Reúne a tu gente, elige su favorita y deja que nosotros nos encarguemos del horno.</p>
+      <a class="button" href="#menu">Encuentra tu favorita <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner wrap">
+      <a class="footer-mark" href="#inicio">faz pizza ✳</a>
+      <p>Pizza hecha con fuego y mucho corazón.</p>
+      <div class="socials"><a href="#menu">Menú</a><a href="#filosofia">Nosotros</a><a href="#inicio">Volver arriba ↑</a></div>
+    </div>
+  </footer>
+</body>
+</html>
